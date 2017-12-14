@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum=scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>Capstone 1</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/override.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $( "#burgermenu" ).click(function() {
+        $("#sitenav").slideToggle("fast");
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="burgermenu"><img src="images/mobilebutton.png" alt="MENU"></div>
+  <header id="siteheader"><img src="images/logo.png" alt="IGNIS PRIORI"></header>
+  <div id="menu">
+    <nav id="sitenav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="forms.html" class="active">Forms</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+      <div class="clear"></div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="content">
+      <h1>Application Form</h1>
+      <div class="content1">
+        <form>
+          <label for="Name">Name</label>
+          <input type="text" placeholder="Name">
+          <label for="Email">Species</label>
+          <input type="email" placeholder="">
+          <label for="comment">Why do you want to join?</label>
+          <textarea name="comment" cols="2" rows="10"></textarea>
+          <input type="submit" value="SUBMIT">
+        </form>
+        <div class="clear"></div>
+      </div>
+    </div>
+    
+    <footer id="sitefooter"><img src="images/socialmedia.png" alt="Follow Us">
+     <h4><strong>DISCLAIMER</strong></h4>
+     <p>No copyright infringement is intended. This is only for educational purposes and not for profit. Some asset/s used are not owned by the developer/s unless otherwise stated; credit goes to the owner.</p>
+   </footer>
+ </body>
+ </html>

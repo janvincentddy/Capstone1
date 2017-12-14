@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document - Main Documnent */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #333 url('../images/background.jpg') no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #FFF;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 24px;
+	border-top: #CCC 1px solid;
+	border-bottom: #CCC 1px solid;
+	text-align: center;
+}
+
+input {
+	display: block;
+	margin: 8px;
+
+}
+
+textarea {
+	display: block;
+}
+#siteheader {
+	width: 100%;
+	margin: 0 auto;
+	height: 300px;
+	background: #333 url('../images/header.jpg') no-repeat center top;
+	background-size: cover;
+	text-align: center;
+}
+#siteheader img {
+	width: auto;
+	max-width: 90%;
+	height: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.clear {
+	clear: both;
+}
+#menu {
+	width: 100%;
+	background: #333;
+}
+#sitenav {
+	width: auto;
+	margin: 0 auto;
+	max-width: 600px;
+	background: #333;
+	height: auto;
+}
+#sitenav a {
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px;
+	border-left: #222 1px solid;
+	border-right: #222 1px solid;
+	min-width: 108px;
+}
+#sitenav a:hover {
+	color: #CCC;
+	background: #111;
+	transition: all 0.3s ease;
+}
+#sitenav ul, #sitenav ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#sitenav ul li {
+	float: left;
+	text-align: center;
+	display: inline-block;
+	min-width: 150px;
+}
+#sitenav a.active {
+	font-weight: bold;
+	color: #FF2121;
+}
+.container {
+	width: auto;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.content {
+	width: auto;
+	max-width: 1024px;
+	margin: 0 auto 30px;
+	border-bottom: #FF0E12 3px solid;
+}
+.content1 {
+	background: rgba(51,51,51,0.70);
+	display: block;
+	margin: 0 auto;
+}
+.content3 * img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.content1 p {
+	padding: 5px 20px;
+}
+.content1 img {
+	float: left;
+	max-width: 30%;
+	margin-right: 20px;
+}
+
+.content2 {
+	background: rgba(51,51,51,0.70);
+	padding: 34px;
+}
+
+.content2 img {
+	max-width: 80%;
+	padding: 52px;
+}
+
+#burgermenu {
+	display: none;
+}
+#sitefooter {
+	background: #111 url('../images/bensolo.jpg') no-repeat center top;
+	background-size: contain;
+	margin: 0 auto;
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	height: 300px;
+}
+
+
+
+

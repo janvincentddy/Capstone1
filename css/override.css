@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* CSS Document - Media Queries */
+
+@media (max-width: 320px) {
+#sitenav {
+	display: none;
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	min-height: 100%;
+}
+#sitenav a {
+	border-left: none;
+	border-right: none;
+	border-bottom: #222 1px solid;
+	display: block;
+}
+#sitenav ul li {
+	float: none;
+	display: block;
+}
+#burgermenu {
+	display: block;
+	text-align: center;
+	background: #111;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 999;
+}
+.content1 img {
+	float: none;
+	max-width: 100%;
+	margin-right: none;
+}
+}

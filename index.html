@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum=scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>Capstone 1</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/override.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $( "#burgermenu" ).click(function() {
+        $("#sitenav").slideToggle("fast");
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="burgermenu"><img src="images/mobilebutton.png" alt="MENU"></div>
+  <header id="siteheader"><img src="images/logo.png" alt="IGNIS PRIORI"></header>
+  <div id="menu">
+    <nav id="sitenav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="forms.html">Forms</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+      <div class="clear"></div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="content">
+      <h1>THE FIRST ORDER WANTS YOU</h1>
+      <div class="content1"> <img src="images/firstorder.jpg" alt="content1">
+        <h3>The First Order Needs You!</h3>
+        <p> With its state of the art conditioning and conformity protocols, Ignis Priori trains the most elite First Order Stormtroopers.
+        Fire of the First Order, Ignis Priori burns through the galaxy like no other!</p>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="content">
+      <h1>WHY JOIN?</h1>
+      <div class="content1"> <a href="images/FO1.jpg" target="_blank"> <img src="images/FO1.jpg" alt="content1"></a> <a href="images/FO2.jpg" target="_blank"> <img src="images/FO2.jpg" alt="content1"></a>
+        <p>JOIN NOW and become the very best!
+        The First Order's handful of sectors simply do not possess the galaxy-wide resources the old Empire used to be able to draw upon, and in addition the armistice treaties with the New Republic put strict limitations on how many ships it could physically build. Therefore, unlike the old Galactic Empire's swarm tactics, the First Order's military has had to adapt to a more "quality over quantity" philosophy, making efficient use of what few resources it has.</p>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <footer id="sitefooter"><img src="images/socialmedia.png" alt="Follow Us">
+    <h4><strong>DISCLAIMER</strong></h4>
+    <p>No copyright infringement is intended. This is only for educational purposes and not for profit. Some asset/s used are not owned by the developer/s unless otherwise stated; credit goes to the owner.</p>
+  </footer>
+</body>
+</html>
